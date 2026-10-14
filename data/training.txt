@@ -1,12 +1,47 @@
 hello
-hello vorax
-my name is vorax
-i am an artificial intelligence
-i learn from text
-python is a programming language
-artificial intelligence learns patterns
-neural networks learn from examples
-data helps models learn
-vorax is learning
 hello world
+hello there
+hello my friend
+my name is vorax
+i am vorax
+i am an artificial intelligence
+i am learning language
+i learn from text
+i learn from examples
+i can generate text
 i can process text
+i can recognize patterns
+i am a small neural network
+python is a programming language
+python can process data
+data helps models learn
+models learn from data
+neural networks learn patterns
+a neural network uses weights
+weights change during training
+training improves a model
+a model predicts the next character
+language contains words and sentences
+words contain characters
+characters form words
+words form sentences
+sentences express ideas
+artificial intelligence processes information
+machine learning finds patterns
+machine learning uses examples
+vorax is learning
+vorax is a text generation system
+vorax predicts characters
+vorax learns from training data
+vorax generates text one character at a time
+the model learns from examples
+the model uses numerical weights
+the model predicts patterns in text
+learning takes time and practice
+practice helps improve the model
+this is an experiment
+this is a learning project
+i am building my own ai
+my ai project is called vorax
+vorax is built with python
+python is used for machine learning
