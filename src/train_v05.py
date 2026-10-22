@@ -110,15 +110,32 @@ def main():
     # Unknown test characters cannot be scored.
     unknown = sorted(set(test_text) - set(char_to_id))
 
-    # Encode each section separately, preventing contexts from
-    # crossing the training/test boundary.
+    # Encode training text.
     train_ids = tokenizer.encode(train_text)
-    test_ids = [
-        char_to_id[c] for c in test_text if c in char_to_id
-    ]
-
     train_examples = make_examples(train_ids)
-    test_examples = make_examples(test_ids)
+
+    # Build test examples while preserving original character positions.
+    # The last training characters provide context for the test boundary.
+    test_examples = []
+    full_text = train_text + test_text
+
+    for target_pos in range(split, len(full_text)):
+        target_char = full_text[target_pos]
+        context_text = full_text[target_pos - CONTEXT_SIZE:target_pos]
+
+        # Require a complete context and known characters throughout.
+        if len(context_text) != CONTEXT_SIZE:
+            continue
+
+        if any(char not in char_to_id for char in context_text):
+            continue
+
+        if target_char not in char_to_id:
+            continue
+
+        context = tokenizer.encode(context_text)
+        target = char_to_id[target_char]
+        test_examples.append((context, target))
 
     if not train_examples or not test_examples:
         raise ValueError(

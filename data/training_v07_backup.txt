@@ -1,0 +1,72 @@
+hello
+hello world
+hello there
+hello my friend
+good morning
+good evening
+how are you
+i am doing well
+my name is vorax
+i am vorax
+i am an artificial intelligence
+i am learning language
+i learn from text
+i learn from examples
+i can generate text
+i can process text
+i can recognize patterns
+i am a small neural network
+i am a computer program
+i am an experiment in learning
+python is a programming language
+python can process data
+python can train models
+python is useful for machine learning
+data helps models learn
+models learn from data
+neural networks learn patterns
+a neural network uses weights
+weights change during training
+training improves a model
+a model predicts the next character
+language contains words and sentences
+words contain characters
+characters form words
+words form sentences
+sentences express ideas
+ideas can be explained with language
+artificial intelligence processes information
+machine learning finds patterns
+machine learning uses examples
+a computer follows instructions
+a program processes input
+a program produces output
+an algorithm follows a sequence of steps
+numbers represent information
+text is made of characters
+characters have numerical identities
+a tokenizer converts text into numbers
+the model learns numerical patterns
+the model uses numerical weights
+the model predicts patterns in text
+learning takes time and practice
+practice helps improve the model
+good examples help a model learn
+different examples teach different patterns
+a small dataset limits what a model learns
+more useful data can improve generation
+a model should be tested on unseen text
+testing helps measure performance
+this is an experiment
+this is a learning project
+i am building my own ai
+my ai project is called vorax
+vorax is built with python
+vorax is a text generation system
+vorax predicts characters
+vorax learns from training data
+vorax generates text one character at a time
+vorax can continue a sentence
+vorax can produce unexpected text
+vorax is still learning
+the goal is to improve vorax step by step
